@@ -1,0 +1,2 @@
+supertab.vba: call delete('/home/jernej/.vim/doc/supertab.txt')|call delete('/home/jernej/.vim/plugin/supertab.vim')
+IndentConsistencyCop.vba: call delete('/home/jernej/.vim/autoload/IndentConsistencyCop.vim')|call delete('/home/jernej/.vim/plugin/IndentConsistencyCop.vim')|call delete('/home/jernej/.vim/doc/IndentConsistencyCop.txt')
