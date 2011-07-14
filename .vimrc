@@ -17,7 +17,8 @@ filetype plugin on
 filetype plugin indent on
 let g:pydiction_location = "/home/jernej/Development/complete-dict"
 
-"autocmd FileType python set complete+=k~/.vim/syntax/python.vim isk+=.,(
+" Enable pylint
+autocmd FileType python compiler pylint
 
 " Keybinding for the NERDTree plugin
 map <F3> :NERDTreeToggle<CR>
